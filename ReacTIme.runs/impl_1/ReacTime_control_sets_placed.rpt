@@ -1,0 +1,82 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Wed Feb 13 12:58:20 2019
+| Host         : m0rbid0wl running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file ReacTime_control_sets_placed.rpt
+| Design       : ReacTime
+| Device       : xc7a100t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    14 |
+| Unused register locations in slices containing registers |    46 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            3 |
+|      4 |            2 |
+|      8 |            1 |
+|     10 |            1 |
+|    16+ |            7 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              66 |           16 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              98 |           17 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              46 |            7 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------+---------------------+--------------------------+------------------+----------------+
+|     Clock Signal     |    Enable Signal    |     Set/Reset Signal     | Slice Load Count | Bel Load Count |
++----------------------+---------------------+--------------------------+------------------+----------------+
+|  hex_digit_reg[0]/G0 |                     |                          |                1 |              2 |
+|  hex_digit_reg[2]/G0 |                     |                          |                1 |              2 |
+|  cd0/CLK             |                     | engn0/DP                 |                1 |              2 |
+|  hex_digit18_out     |                     | hex_digit_reg[3]_i_3_n_0 |                2 |              4 |
+|  clk_IBUF_BUFG       |                     |                          |                2 |              4 |
+|  tmp_count_BUFG      |                     | rst                      |                2 |              8 |
+|  tmp_count_BUFG      |                     |                          |                3 |             10 |
+|  lfsr_clk_reg_n_0    |                     |                          |                3 |             16 |
+|  tmp_count_BUFG      | t_count[10]_i_2_n_0 | t_count[10]_i_1_n_0      |                4 |             22 |
+|  tmp_count_BUFG      | l8/r_count_reg[0]   | cr0/r_count_reg[0]       |                3 |             24 |
+|  tmp_count_BUFG      |                     | rst_cr0_reg_n_0          |                4 |             26 |
+|  clk_IBUF_BUFG       |                     | cd0/clear                |                4 |             26 |
+|  cd0/CLK             |                     |                          |                6 |             32 |
+|  clk_IBUF_BUFG       |                     | cd0/count[0]_i_1_n_0     |                4 |             32 |
++----------------------+---------------------+--------------------------+------------------+----------------+
+
+

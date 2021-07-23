@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1550042791">
+  <File Type="BITSTR-BMM" Name="ReacTime_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="ReacTime_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="ReacTime_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="ReacTime_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="ReacTime.tcl"/>
+  <File Type="OPT-TIMING" Name="ReacTime_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="ReacTime_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="ReacTime_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="ReacTime_reports.tcl"/>
+  <File Type="OPT-DRC" Name="ReacTime_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="ReacTime.hwdef"/>
+  <File Type="PWROPT-DCP" Name="ReacTime_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="ReacTime_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="ReacTime_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="ReacTime_placed.dcp"/>
+  <File Type="PLACE-IO" Name="ReacTime_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="ReacTime_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="ReacTime_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="ReacTime_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="ReacTime_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="ReacTime_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="ReacTime_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="ReacTime.bgn"/>
+  <File Type="PLACE-TIMING" Name="ReacTime_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="ReacTime_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="ReacTime.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="ReacTime_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="ReacTime_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="ReacTime_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="ReacTime.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="ReacTime_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="ReacTime_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="ReacTime_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="ReacTime_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="ReacTime_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="ReacTime_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="ReacTime.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="ReacTime_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="ReacTime.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="ReacTime_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="ReacTime_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="ReacTime.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="ReacTime_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="ReacTime_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="ReacTime_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="ReacTime_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="ReacTime_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="ReacTime_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="ReacTime_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="ReacTime_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="ReacTime_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="ReacTime_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="ReacTime_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="ReacTime_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="ReacTime_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="ReacTime_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="ReacTime_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="ReacTime_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="ReacTime_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="ReacTime_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="ReacTime_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="ReacTime.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="ReacTime_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="ReacTime.rbt"/>
+  <File Type="BITSTR-NKY" Name="ReacTime.nky"/>
+  <File Type="BG-DRC" Name="ReacTime.drc"/>
+  <File Type="RDI-RDI" Name="ReacTime.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Bin2Hex.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ClkDiv.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CountReg.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/EnGen.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/LFSR_12.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SSD.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ReacTime.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="ReacTime"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/digilent-xdc-master/Nexys-4-DDR-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Artix 7/digilent-xdc-master/Nexys-4-DDR-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1531244636"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

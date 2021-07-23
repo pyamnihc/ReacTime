@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ReacTIme.srcs/sources_1/new/Bin2Hex.v" \
+"../../../../ReacTIme.srcs/sources_1/new/ClkDiv.v" \
+"../../../../ReacTIme.srcs/sources_1/new/CountReg.v" \
+"../../../../ReacTIme.srcs/sources_1/new/EnGen.v" \
+"../../../../ReacTIme.srcs/sources_1/new/LFSR_12.v" \
+"../../../../ReacTIme.srcs/sources_1/new/SSD.v" \
+"../../../../ReacTIme.srcs/sources_1/new/ReacTime.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
